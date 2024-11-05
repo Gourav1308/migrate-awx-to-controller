@@ -5,6 +5,7 @@ controller_projects:
     organization: "AWX-ORG"
     scm_type: "git"
     scm_url: "https://github.com/automationiberia/dummy-playbooks.git"
+    scm_credential: "Test credentials"
     scm_branch: "dev-site"
     scm_clean: "True"
     scm_delete_on_update: "True"
