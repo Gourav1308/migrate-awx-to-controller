@@ -1,0 +1,11 @@
+---
+controller_settings:
+  - settings:
+      INSTALL_UUID: "b89b00ff-84ea-4d34-a768-823c215a8f26"
+      AWX_TASK_ENV:
+        GIT_SSL_NO_VERIFY: 'True'
+      CUSTOM_LOGIN_INFO: "Configuration as Code Migration Test"
+      AUTH_LDAP_GROUP_TYPE_PARAMS:
+        member_attr: member
+        name_attr: cn
+...
