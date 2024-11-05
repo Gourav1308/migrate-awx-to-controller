@@ -6,7 +6,7 @@ controller_settings:
         GIT_SSL_NO_VERIFY: 'True'
         HOME: /var/lib/awx
       CUSTOM_LOGIN_INFO: "Configuration as Code Migration Test"
-      AUTH_LDAP_SERVER_URI: "ldaps://ldaps.example.com:443"
+      AUTH_LDAP_SERVER_URI: ""
       AUTH_LDAP_BIND_DN: ""
       AUTH_LDAP_BIND_PASSWORD: ""
       AUTH_LDAP_START_TLS: "false"
